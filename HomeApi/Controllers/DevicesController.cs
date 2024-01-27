@@ -45,8 +45,6 @@ namespace HomeApi.Controllers
             return StatusCode(200, resp);
         }
         
-        // TODO: Задание: напишите запрос на удаление устройства
-        
         /// <summary>
         /// Добавление нового устройства
         /// </summary>
@@ -96,6 +94,24 @@ namespace HomeApi.Controllers
             );
 
             return StatusCode(200, $"Устройство обновлено! Имя - {device.Name}, Серийный номер - {device.SerialNumber},  Комната подключения - {device.Room.Name}");
+        }
+
+        // TODO: Задание: напишите запрос на удаление устройства
+
+        [HttpPost]
+        [Route("{id}")]
+        public async Task<IActionResult> Delete(
+            [FromRoute] Guid id,
+            //В этом классе есть нужный параметр, но есть и лишние
+            [FromBody] DeleteDeviceRequest request
+            )
+        {
+            var device = await _devices.GetDeviceById(id);
+            if(device == null)
+                return StatusCode(400, $"Ошибка: Устройство с идентификатором {id} не существует.");
+            await _devices.DeleteDevice(device);
+
+            return StatusCode(200, $"Устройство с именем {device.Name}, серийным номером {device.SerialNumber} из комнаты {device.Room.Name} удалено!");
         }
     }
 }
