@@ -12,7 +12,5 @@ namespace HomeApi.Contracts.Models.Devices
     public class DeleteDeviceRequest
     {
         public Guid id { get; set; }
-        //имя уникально
-        public string Name { get; set; }
     }
 }

@@ -101,9 +101,7 @@ namespace HomeApi.Controllers
         [HttpPost]
         [Route("{id}")]
         public async Task<IActionResult> Delete(
-            [FromRoute] Guid id,
-            //В этом классе есть нужный параметр, но есть и лишние
-            //[FromBody] DeleteDeviceRequest request
+            [FromRoute] Guid id
             )
         {
             var device = await _devices.GetDeviceById(id);

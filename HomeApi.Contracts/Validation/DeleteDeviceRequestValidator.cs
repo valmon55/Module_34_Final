@@ -12,7 +12,8 @@ namespace HomeApi.Contracts.Validation
     {
         public DeleteDeviceRequestValidator() 
         { 
-            RuleFor(x => x.Name).NotEmpty();
+            //не нужно
+            //RuleFor(x => x.Name).NotEmpty();
         }
     }
 }
