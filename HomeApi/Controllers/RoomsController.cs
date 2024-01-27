@@ -22,9 +22,14 @@ namespace HomeApi.Controllers
             _repository = repository;
             _mapper = mapper;
         }
-        
+
         //TODO: Задание - добавить метод на получение всех существующих комнат
-        
+        [HttpGet]
+        [Route("")]
+        public async Task<Room[]> GetRooms()
+        {
+            
+        }
         /// <summary>
         /// Добавление комнаты
         /// </summary>
