@@ -103,7 +103,7 @@ namespace HomeApi.Controllers
         public async Task<IActionResult> Delete(
             [FromRoute] Guid id,
             //В этом классе есть нужный параметр, но есть и лишние
-            [FromBody] DeleteDeviceRequest request
+            //[FromBody] DeleteDeviceRequest request
             )
         {
             var device = await _devices.GetDeviceById(id);
