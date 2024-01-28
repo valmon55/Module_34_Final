@@ -60,7 +60,7 @@ namespace HomeApi.Controllers
         [HttpPut]
         [Route("{id}")]
         public async Task<IActionResult> Edit(
-            [FromRoute] Guid id,
+            [FromRoute] Guid id, 
             [FromBody] EditRoomRequest request
             )
         {
