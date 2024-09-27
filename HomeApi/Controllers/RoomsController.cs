@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using AutoMapper;
-using HomeApi.Contracts.Models.Rooms;
+using HomeApi.Contracts_net_standart2.Models.Rooms;
 using HomeApi.Data.Models;
 using HomeApi.Data.Queries;
 using HomeApi.Data.Repos;

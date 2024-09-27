@@ -1,7 +1,7 @@
 using System.Reflection;
 using FluentValidation.AspNetCore;
 using HomeApi.Configuration;
-using HomeApi.Contracts.Validation;
+using HomeApi.Contracts_net_standart2.Validation;
 using HomeApi.Data;
 using HomeApi.Data.Repos;
 using Microsoft.AspNetCore.Builder;

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using HomeApi.Configuration;
-using HomeApi.Contracts.Models.Home;
+using HomeApi.Contracts_net_standart2.Models.Home;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 

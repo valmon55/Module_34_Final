@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using HomeApi.Configuration;
-using HomeApi.Contracts.Models.Devices;
-using HomeApi.Contracts.Models.Home;
-using HomeApi.Contracts.Models.Rooms;
+using HomeApi.Contracts_net_standart2.Models.Devices;
+using HomeApi.Contracts_net_standart2.Models.Home;
+using HomeApi.Contracts_net_standart2.Models.Rooms;
 using HomeApi.Data.Models;
 
 namespace HomeApi

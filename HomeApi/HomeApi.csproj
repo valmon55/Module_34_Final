@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>059a1f06-137b-43ff-b415-87568ee4b39d</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\HomeApi.Contracts\HomeApi.Contracts.csproj" />
+      <ProjectReference Include="..\HomeApi.Contracts_net_standart2\HomeApi.Contracts_net_standart2.csproj" />
       <ProjectReference Include="..\HomeApi.Data\HomeApi.Data.csproj" />
     </ItemGroup>
 
