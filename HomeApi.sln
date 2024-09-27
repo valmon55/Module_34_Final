@@ -16,7 +16,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeApi.Contracts_net5", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeApi.Data", "HomeApi.Data\HomeApi.Data.csproj", "{CB739A79-D0FF-45B5-A157-10FFA5FEC81A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeApi.Contracts_net_standart2", "HomeApi.Contracts_net_standart2\HomeApi.Contracts_net_standart2.csproj", "{688F84C7-6B57-48E0-BF73-394435386346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeApi.Contracts_net_standart2", "HomeApi.Contracts_net_standart2\HomeApi.Contracts_net_standart2.csproj", "{688F84C7-6B57-48E0-BF73-394435386346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +48,7 @@ Global
 		{9AB42422-B309-4B9B-9A95-08D49C9318F1} = {3466AF7A-74A6-400A-9E31-50BEEA86A09E}
 		{61729CBF-1632-47A8-93EA-28F92899FBF0} = {3466AF7A-74A6-400A-9E31-50BEEA86A09E}
 		{CB739A79-D0FF-45B5-A157-10FFA5FEC81A} = {3466AF7A-74A6-400A-9E31-50BEEA86A09E}
+		{688F84C7-6B57-48E0-BF73-394435386346} = {3466AF7A-74A6-400A-9E31-50BEEA86A09E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC0A2E0E-4E2D-4582-BDE5-3CCC40B2A5CC}
