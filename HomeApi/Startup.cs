@@ -35,7 +35,7 @@ namespace HomeApi
             services.AddSingleton<IDeviceRepository, DeviceRepository>();
             services.AddSingleton<IRoomRepository, RoomRepository>();
             
-            string connection = Configuration. GetConnectionString("DefaultConnection");
+            string connection = Configuration. GetConnectionString("HP_Connection");
             services.AddDbContext<HomeApiContext>(options => options.UseSqlServer(connection), ServiceLifetime.Singleton);
             
             // Подключаем валидацию
